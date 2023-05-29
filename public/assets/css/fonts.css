@@ -1,0 +1,39 @@
+/* Import any Google Font */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|family=Lato');
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+
+/* Import External Web Fonts */
+@import url("../fonts/Kollektif/stylesheet.css");
+@import url("../fonts/Lemon-Tuesday/stylesheet.css");
+
+/* Import Font Awesome */
+@import url("../fonts/fontawesome/css/all.css");
+
+/* Fonts */
+
+.is-urb {
+  font-family: 'kollektif';
+}
+
+.is-urb .is-bold {
+  font-family: 'kollektif bold';
+}
+
+.is-urb .is-italic {
+  font-family: 'kollektif italic';
+}
+
+.is-urb .is-bold .is-italic {
+  font-family: 'kollektif bold italic';
+}
+
+.is-logo {
+  font-family: 'Lemon_Tuesday';
+  font-size: 1.8em;
+  letter-spacing: 0em;
+}
+
+.is-logo .is-small {
+  letter-spacing: 0;
+  font-size: 0.5em;
+}

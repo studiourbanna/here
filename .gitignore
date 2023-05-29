@@ -1,0 +1,6 @@
+_build
+_site
+.jekyll-cache
+.puge
+.DS_Store
+node_modules/

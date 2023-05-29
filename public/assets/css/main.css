@@ -1,0 +1,44 @@
+/* Import Mediatek Bulma  */
+@import url("packages/bulma.css");
+
+/* Import Mediatek fonts */
+@import url("fonts.css");
+
+/* Import Local colors style */
+@import url("colors.css");
+
+/* Import Local 404 style */
+@import url("404.css");
+
+/*👇 for preload play/pause svg 😎*/
+body:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163884/play.svg)
+  url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163884/pause.svg);
+  font-family: 'Lato';
+}
+
+/* Page */
+
+.navbar {
+	padding: 1.78px;
+  opacity: 85%;
+  background-color: #48249c;
+}
+
+.hero {
+  padding: 2px;
+}
+
+.control {
+  width: 500px;
+  margin-left: 0;
+}
+
+.control .input {
+  width: 600px;
+}

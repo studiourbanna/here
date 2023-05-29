@@ -1,0 +1,21 @@
+/* Colors */
+
+.is-link {
+  color: #3273dc;
+}
+
+.is-white, .subtitle .is-logo {
+  color: #ffffff;
+}
+
+.is-white a:hover {
+  color: #dbdbdb;
+}
+
+.is-purple {
+  color: #48249c;
+}
+
+.is-purple-background {
+	background-color: #48249c;
+}

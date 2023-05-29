@@ -1,0 +1,19 @@
+nav(id="top").navbar.is-light.is-fixed-top
+  .navbar-brand
+    a.navbar-item.is-logo(href="home#short") hey!
+    .navbar-item
+      span seu super encurtador
+    .navbar-burger(data-target="navbarExampleTransparentExample")
+      span
+      span
+      span
+  #navbarExampleTransparentExample.navbar-menu
+    .navbar-end
+      .navbar-item
+        .field.is-grouped
+          a.navbar-item.is-active(href='home#short')
+            | Encurtar
+          a.navbar-item(href='home#about')
+            | Sobre
+          a.navbar-item(href='terms')
+            | Termos
