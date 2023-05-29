@@ -4,3 +4,5 @@ _site
 .puge
 .DS_Store
 node_modules/
+npm-debug.log
+
