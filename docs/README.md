@@ -1,4 +1,4 @@
-# Encurtai
+# EncurTaí!
 
 [![GitHub license](https://img.shields.io/github/license/studiourbanna/encurtai?style=for-the-badge)](https://github.com/studiourbanna/encurtai)
 [![GitHub stars](https://img.shields.io/github/stars/studiourbanna/encurtai?style=for-the-badge)](https://github.com/studiourbanna/encurtai/stargazers)
