@@ -1,7 +1,7 @@
 document.getElementById("myinput").onclick = function () {
     var link = document.getElementById("linkinput").value;
     var data = {
-        "domain": "heyurb.com.br",
+        "domain": "do.encurtai.com",
         "originalURL": link,
         "allowDuplicates": false
     };
