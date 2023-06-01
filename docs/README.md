@@ -10,6 +10,6 @@ Shortener links, made with Pug, Bulma, NodeJs, Express, and Short.io API.
 You could create links and share with your friends.
 Not yet avaliable social share buttons.
 
-[![image.png](https://pbs.twimg.com/media/Fxj3yRaXsAIGXlf?format=jpg&name=4096x4096)](https://encurtai.com)]]
+[![image.png](https://pbs.twimg.com/media/Fxj3yRaXsAIGXlf?format=jpg&name=4096x4096)](https://encurtai.studiourbanna.com.br)
 
 Licence: [MIT](LICENSE)
