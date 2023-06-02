@@ -44,7 +44,7 @@ body:after {
 }
 
 .navbar-item a {
-  color: #ffffff;
+  color: white;
 }
 
 .navbar-item a:hover {
@@ -220,4 +220,3 @@ body:after {
     font-size: 2em;
   }
 }
-
