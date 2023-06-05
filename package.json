@@ -107,7 +107,7 @@
     "graceful-fs": "^4.2.8",
     "has": "^1.0.3",
     "has-ansi": "^2.0.0",
-    "has-binary2": "^1.0.3",
+    "has-binary2": "^2.0.0",
     "has-cors": "^1.1.0",
     "has-symbols": "^1.0.2",
     "has-tostringtag": "^1.0.0",
