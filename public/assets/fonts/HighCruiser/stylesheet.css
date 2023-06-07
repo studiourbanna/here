@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'High Cruiser';
+    src: url('HighCruiser.eot');
+    src: url('HighCruiser.eot?#iefix') format('embedded-opentype'),
+        url('HighCruiser.woff2') format('woff2'),
+        url('HighCruiser.woff') format('woff'),
+        url('HighCruiser.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

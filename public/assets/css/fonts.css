@@ -5,6 +5,7 @@
 /* Import External Web Fonts */
 @import url("../fonts/Kollektif/stylesheet.css");
 @import url("../fonts/Lemon-Tuesday/stylesheet.css");
+@import url("../fonts/HighCruiser/stylesheet.css");
 
 /* Import Font Awesome */
 @import url("../fonts/fontawesome/css/all.css");
@@ -28,7 +29,7 @@
 }
 
 .is-logo {
-  font-family: 'Lemon_Tuesday';
+  font-family: 'High Cruiser';
   font-size: 1.8em;
   letter-spacing: 0em;
 }

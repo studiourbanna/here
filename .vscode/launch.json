@@ -1,0 +1,30 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+          {
+            "name": "localhost (Chrome)",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}\\public"
+          },
+          {
+            "name": "Debug Dev Env",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/bin",
+            "program": "${workspaceFolder}/bin/www",
+            "stopOnEntry": true
+          },
+        {
+            "name": "Launch Node and Browser",
+            "configurations": [
+              "Debug Dev Env",
+              "localhost (Edge)"
+            ]
+          }
+    ]
+}

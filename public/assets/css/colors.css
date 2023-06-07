@@ -1,5 +1,9 @@
 /* Colors */
 
+.is-dark {
+  color: #222324;
+}
+
 .is-link {
   color: #3273dc;
 }
