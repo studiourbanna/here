@@ -237,7 +237,7 @@
     "type-is": "^1.6.18",
     "ua-parser-js": "^1.0.2",
     "uc.micro": "^1.0.6",
-    "uglify-js": "^2.8.29",
+    "uglify-js": "^3.17.4",
     "uglify-to-browserify": "^1.0.2",
     "universalify": "^0.1.2",
     "unpipe": "^1.0.0",
