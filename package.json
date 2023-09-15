@@ -20,7 +20,7 @@
     "arraybuffer.slice": "^0.0.7",
     "asap": "^2.0.6",
     "assert-never": "^1.2.1",
-    "async": "^1.5.2",
+    "async": "^3.2.4",
     "async-each-series": "^0.1.1",
     "axios": "^0.21.4",
     "babel-runtime": "^6.26.0",
