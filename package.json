@@ -11,7 +11,7 @@
     "acorn": "^7.4.1",
     "acorn-globals": "^3.1.0",
     "after": "^0.8.2",
-    "align-text": "^0.1.4",
+    "align-text": "^1.0.2",
     "ansi-regex": "^2.1.1",
     "ansi-styles": "^2.2.1",
     "anymatch": "^3.1.2",
