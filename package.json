@@ -238,7 +238,7 @@
     "ua-parser-js": "^1.0.2",
     "uc.micro": "^1.0.6",
     "uglify-js": "^3.17.4",
-    "uglify-to-browserify": "^1.0.2",
+    "uglify-to-browserify": "^2.1.0",
     "universalify": "^0.1.2",
     "unpipe": "^1.0.0",
     "utils-merge": "^1.0.1",
