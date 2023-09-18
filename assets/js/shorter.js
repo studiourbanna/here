@@ -1,9 +1,35 @@
-//Encurtador
+/*
+ * Encurtador de links
+ * Autor: Camila Oliveira
+ * Data: 18/09/2023
+ */
+
+const brandLinks = /ourbanna\.com|portalurbanna\.com\.br/;
+var domain = "";
 
 document.getElementById("myinput").onclick = function () {
-    var link = document.getElementById("linkinput").value;
+  var link = document.getElementById("linkinput").value;
+  if (!link.trim() || link < "https://" || link < "http://") {
+    console.log("O link está vazio.");
+    document.getElementById("message").innerHTML =
+      "<div class='notification is-danger is-danger'>" +
+      "<div class='icon-text'>" +
+      "<span class='icon has-text-danger'><i class='fas fa-info-warning'></i></span>" +
+      "<span><strong>Hm, parece que o link não existe, vamos tentar novamente?</strong></span>" +
+      "</span>" +
+      "</div>" +
+      "</div>";
+  } else {
+    // Verifica se o link não contém os domínios permitidos
+    if (!brandLinks.test(link)) {
+      domain = "do.encurtai.com";
+      console.log("O link não contém os domínios permitidos.");
+    } else {
+      domain = "n.ourbanna.com";
+      console.log("O link contém um dos domínios permitidos.");
+    }
     var data = {
-      domain: "do.encurtai.com",
+      domain: domain,
       originalURL: link,
       allowDuplicates: false
     };
@@ -35,5 +61,5 @@ document.getElementById("myinput").onclick = function () {
           "</div>";
       });
     document.getElementById("linkinput").value = "";
-  };
-  
+  }
+};
