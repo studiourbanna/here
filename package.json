@@ -248,7 +248,7 @@
     "window-size": "^0.1.0",
     "with": "^7.0.2",
     "wordwrap": "^0.0.2",
-    "wrap-ansi": "^7.0.0",
+    "wrap-ansi": "^8.1.0",
     "wrappy": "^1.0.2",
     "ws": "^7.4.6",
     "xmlhttprequest-ssl": "^1.6.3",
