@@ -15,7 +15,7 @@
     "ansi-regex": "^2.1.1",
     "ansi-styles": "^2.2.1",
     "anymatch": "^3.1.2",
-    "argparse": "^1.0.10",
+    "argparse": "^2.0.1",
     "array-flatten": "^1.1.1",
     "arraybuffer.slice": "^0.0.7",
     "asap": "^2.0.6",
