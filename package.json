@@ -52,7 +52,7 @@
     "clean-css": "^4.2.4",
     "cliui": "^2.1.0",
     "color-convert": "^2.0.1",
-    "color-name": "^1.1.4",
+    "color-name": "^2.0.0",
     "commander": "^2.20.3",
     "component-bind": "^1.0.0",
     "component-emitter": "^1.3.0",
